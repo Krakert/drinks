@@ -37,12 +37,16 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
+# Pod files
+*.lock
+
 # Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
 /android/app/release
-ios/Runner/keys.plist
+
+# Key files
 firebase.json
 android/app/google-services.json
 ios/Runner/keys.plist
-*.lock
+lib/firebase_options.dart
